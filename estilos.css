@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+
+header{
+
+    background-color: #838998;
+}
+
+#logo {
+    width: 74px;
+    height: 60px;
+    background: url("imgs/logo.png");
+    font-size: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {
+    color: var(--dark);
+    font-weight: 600;
+
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+
+#vuelo {
+height: 580px;
+    max-width: 450px;
+}
+
+
+.oculto{
+    display: none !important;
+}
+
+.celeste {
+    background-color:rgb(155, 170, 174);
+}
+
+.celeste .card-header {
+    background-color: rgb(91, 136, 151);
+
+}
+
+.rosa {
+    background-color: rgb(221, 168, 176);
+}
+.rosa .card-header {
+    background-color: rgb(147, 66, 78);
+}
+
+.verde {
+    background-color: rgb(164, 208, 164);
+}
+.verde .card-header {
+    background-color: rgb(84, 135, 84);
+}
+
+.naranja {
+    background-color: rgb(202, 142, 119);
+}
+.naranja .card-header {
+    background-color: rgb(165, 96, 68);
+}
+
+@media (max-width:1200px) {
+    .pastilla-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+#vuelos{
+    background-color:#838998;
+   padding-top: 5rem;
+}
+
+@media (max-width:768px) {
+    .pastilla-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #iconos {
+        margin-top: 1rem !important;
+    }
+    #menu {
+        align-items: center;
+    }
+    .nav-link:after {
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    #ocultar-texto {
+        display: none;
+    }
+    .lista {
+        justify-content: center;
+    }
+
+}
+
+footer {
+    background: #838998;
+    min-height: 100px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+#iconos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: white;
+}
+
+section {
+    scroll-margin-top: 68px;
+}
+.info-block {
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.info-block img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+.info-block p {
+    margin: 5px 0;
+}
